@@ -1,0 +1,11 @@
+{
+  "all": true,
+  "include": ["src/**/*.js"],
+  "exclude": [
+    "tests/**",
+    "src/database/migrations/**",
+    "src/database/seeders/**"
+  ],
+  "reporter": ["lcov", "text"],
+  "report-dir": "./coverage"
+}
